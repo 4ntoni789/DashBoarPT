@@ -26,7 +26,8 @@ function ContGraphics(props) {
           <h5>Ordenes Mensuales</h5>
         </div>
         <div className='App__pageAnalicis__Graphics__setBlocks__block'>
-          <h1>${calcularPunto(state.filtro.filtroRess.mes.recaudoMensual)}</h1>
+          <h1>${calcularPunto(String(state.filtro.filtroRess.mes.recaudoMensual == undefined ? 0
+            : state.filtro.filtroRess.mes.recaudoMensual))}</h1>
           <h5>Total Reacudo</h5>
         </div>
       </div>
