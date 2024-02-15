@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.App{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #bbb;
+}
+body{
+    background-color: #bbb;   
+    animation: aparecer 1s forwards;
+    transition: all .5s;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+        transition: all .5s;
+    }
+
+    100% {
+        opacity: 100;
+        transition: all .5s;
+
+    }
+}

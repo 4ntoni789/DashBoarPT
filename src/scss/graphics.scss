@@ -1,0 +1,43 @@
+.App__pageAnalicis__Graphics {
+    width: 98%;
+    height: 450px;
+    margin: 10px;
+    display: flex;
+
+    &__setBlocks {
+        width: 35%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        &__block {
+            background-color: #fff;
+            width: 48%;
+            height: 49%;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, 0.2);
+
+            h1 {
+                color: #1c7db6;
+            }
+        }
+
+    }
+    &__block02 {
+        background-color: #fff;
+        width: 65%;
+        height: 100%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, 0.2);
+
+    }   
+}

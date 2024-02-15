@@ -1,0 +1,25 @@
+.App__pageAnalicis__Graphics2 {
+  height: 300px;
+  width: 98%;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.App__pageAnalicis__Graphics2__graphicItem {
+  width: 33%;
+  height: 100%;
+  background-color: #fff;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App__pageAnalicis__Graphics2__graphicItem h5 {
+  font-weight: 0;
+}
+
+/*# sourceMappingURL=graphics2.css.map */

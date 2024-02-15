@@ -1,0 +1,30 @@
+.App__pageAnalicis__filters {
+  border: 2px solid #b5b4b4;
+  width: 98%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.App__pageAnalicis__filters__filterMes {
+  outline: none;
+  margin-left: 5px;
+  height: 25px;
+  border: 1px solid #1c7db6;
+  border-radius: 5px;
+}
+.App__pageAnalicis__filters__btnSubmit {
+  margin-left: 5px;
+  height: 25px;
+  min-width: 40px;
+  color: #fff;
+  background-color: #1c7db6;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+/*# sourceMappingURL=filters.css.map */
